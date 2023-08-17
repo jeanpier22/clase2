@@ -1,0 +1,151 @@
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4
+$ git init
+Initialized empty Git repository in C:/Users/Jeanpier/Desktop/TECSUP/Clase 4/.git/
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (master)
+$ git branch -m main
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=jeanpier22
+user.email=jeanpier.ancori@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git remote set -url origin https://github.com/jeanpier22/clase2
+error: unknown subcommand: `set'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git remote set-url origin https://github.com/jeanpier22/clase2
+error: No such remote 'origin'
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git remote set-url origin https://github.com/jeanpier22/clase2
+error: No such remote 'origin'
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=jeanpier22
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git remote -v
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git remote set-url origin https://github.com/jeanpier22/clase2.git
+error: No such remote 'origin'
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ ld
+bash: ld: command not found
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ ls
+index.html  styles.css
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git add .
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git remote add origin https://github.com/jeanpier22/clase2.git
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git remote -v
+origin  https://github.com/jeanpier22/clase2.git (fetch)
+origin  https://github.com/jeanpier22/clase2.git (push)
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git pull origin main
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 1), reused 6 (delta 1), pack-reused 0
+Unpacking objects: 100% (6/6), 1.66 KiB | 62.00 KiB/s, done.
+From https://github.com/jeanpier22/clase2
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+        new file:   styles.css
+
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git commit -m "Agregando css"
+[main 043dd30] Agregando css
+ 2 files changed, 38 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
+$ git push  origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 760 bytes | 760.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jeanpier22/clase2.git
+   66b7c3a..043dd30  main -> main
+
+Jeanpier@DESKTOP-27OUKCA MINGW64 ~/Desktop/TECSUP/Clase 4 (main)
