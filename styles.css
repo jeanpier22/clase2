@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+    font-size: 80px;
+}
+
+.selector-clase{
+    color: red;
+    font-size: 30 px;
+
+}
+
+#selector-id{
+    color: yellow;
+    font-size: 24px;
+}
